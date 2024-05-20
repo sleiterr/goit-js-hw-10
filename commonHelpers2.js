@@ -1,0 +1,2 @@
+import"./assets/styles-2288a9ad.js";const s=document.querySelector(".form");s.addEventListener("submit",function(o){o.preventDefault();const t=parseInt(s.delay.value),l=s.querySelector('input[name="state"]:checked').value,i=new Promise((e,r)=>{setTimeout(()=>{l==="fulfilled"?e(t):r(t)},t)});i.then(e=>{iziToast.success({title:"Fulfilled promise",message:`✔️ Fulfilled promise in ${e}ms`})}),i.catch(e=>{iziToast.error({title:"Rejected promise",message:`⛔ Rejected promise in ${e}ms`})})});
+//# sourceMappingURL=commonHelpers2.js.map
