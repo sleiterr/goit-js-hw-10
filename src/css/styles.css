@@ -25,13 +25,13 @@
 }
 
 .title {
-  margin: 10px 10px 10px 0px;;
+  margin: 10px 10px 10px 0px;
 }
 
 .timer {
   display: flex;
   /* justify-content: space-between; */
-  
+
   align-items: center;
   font-size: 24px;
   font-weight: bold;
@@ -54,4 +54,47 @@
 
 .label {
   font-size: 18px;
+}
+
+/* FORM */
+
+.form {
+  width: 300px;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.form label {
+  display: block;
+}
+
+.form input[type='number'] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.form fieldset {
+  display: flex;
+  border: none;
+  padding-top: 10px;
+}
+
+.form legend {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.form label input[type='radio'] {
+  margin-right: 10px;
+}
+
+.form button[type='submit'] {
+  width: 100%;
+  padding: 10px;
+  background-color: #6cb2c2;
+  color: white;
+  border: none;
+  cursor: pointer;
 }

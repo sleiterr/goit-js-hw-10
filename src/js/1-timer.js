@@ -32,7 +32,7 @@ const options = {
     if (selectedDate < new Date()) {
       iziToast.warning({
         title: 'Warning',
-        message: 'Please choose a date in the future',
+        message: '⚠️ Please choose a date in the future',
       });
       startButton.disabled = true;
     } else {
